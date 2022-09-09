@@ -1,0 +1,29 @@
+@charset "utf-8";
+body {
+  width: 400px;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.redBox {
+  height: 100px;
+  background-color: #ff0000;
+}
+.greenBox {
+  width: 150px;
+  height: 250px;
+  background-color: #00ff10;
+  float: left;
+}
+.blueBox {
+  width: 250px;
+  height: 250px;
+  background-color: #3300f3;
+  float: left;
+}
+.yellowBox {
+  height: 100px;
+  background-color: #ffe600;
+}
