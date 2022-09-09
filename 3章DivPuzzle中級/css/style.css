@@ -1,0 +1,54 @@
+@charset "utf-8";
+body {
+  width: 400px;
+}
+  /* boxの設定 */
+.redBox {
+  height: 100px;
+  background-color: #ff0000;
+  }
+.greenBox {
+    width: 150px;
+    height: 250px;
+    background-color: #00ff51;
+    float: left;
+}
+.pinkBox {
+  height: 50px;
+  background-color: #cc00db;
+}
+.blueBox {
+  height: 100px;
+  background-color: #0093b7;
+}
+.orangeBox {
+  width: 100px;
+  height: 150px;
+  background-color: #ff9e6b;
+  float: left;
+}
+.blownBox {
+  height: 100px;
+  background-color: #8c2727;
+}
+.yellowBox {
+  height: 100px;
+  background-color: #fff700;
+}
+
+/* グループ化したboxの設定 */
+.BoxIn_PnkBlue {
+  width: 150px;
+  float: left;
+}
+.BoxIn_PnkBlueOrangBlwn {
+  width: 250px;
+  float: left;
+}
+
+/* clearfixの設定 */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
