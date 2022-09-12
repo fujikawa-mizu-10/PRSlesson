@@ -1,0 +1,67 @@
+@charset "utf-8";
+body {
+  width: 400px;
+}
+  /* headerの設定 */
+.headerArea {
+  height: 100px;
+  background: #ff0000;
+  position: relative;
+}
+.purple_left, .purple_middle, .purple_right {
+  width: 40px;
+  height: 40px;
+  background: #a9004b;
+  float: left;
+  margin-left: 10px;
+}
+.purple_left {
+  margin-left: 0;
+}
+.navArea {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #ffffff;
+  padding: 10px;
+}
+/* mainの設定 */
+.main_left {
+  width: 150px;
+  height: 250px;
+  background: #00ff51;
+  float: left;
+}
+.main_right {
+  width: 250px;
+  height: 250px;
+  background: #8c2727;
+  float: left;
+  position: relative;
+}
+.orange_top, .orange_middle, .orange_bottom {
+  width: 140px;
+  height: 40px;
+  background: #ff863f;
+  margin-bottom: 10px;
+  border: solid #ffffff 5px;
+}
+.orange_bottom  {
+  margin-bottom: 0;
+}
+.orangeBoxs {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+/* footerの設定 */
+.footerArea {
+  height: 100px;
+  background: #ffd000;
+}
+/* cleanfixの設定 */
+.cleanfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
