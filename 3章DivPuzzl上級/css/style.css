@@ -8,14 +8,14 @@ body {
   background: #ff0000;
   position: relative;
 }
-.purple_left, .purple_middle, .purple_right {
+.purpleBox {
   width: 40px;
   height: 40px;
   background: #a9004b;
   float: left;
   margin-left: 10px;
 }
-.purple_left {
+.purpleBox:first-child {
   margin-left: 0;
 }
 .navArea {
@@ -39,17 +39,17 @@ body {
   float: left;
   position: relative;
 }
-.orange_top, .orange_middle, .orange_bottom {
+.orangeBox {
   width: 140px;
   height: 40px;
   background: #ff863f;
   margin-bottom: 10px;
   border: solid #ffffff 5px;
 }
-.orange_bottom  {
+.orangeBox:last-child {
   margin-bottom: 0;
 }
-.orangeBoxs {
+.sectionArea {
   position: absolute;
   left: 40px;
   top: 40px;
